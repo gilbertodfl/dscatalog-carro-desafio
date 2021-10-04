@@ -1,0 +1,222 @@
+.home-container {
+  padding: 10px;
+  font-size: 20px;
+  border-style: solid;
+  background-color:#ffffff;
+  font-size: 30px;
+  color: #ffffff;
+  /* border: 5px solid #c3c3c3;*/ 
+  display: flex;
+  flex-direction: column;
+}
+
+
+.home-card-main {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  color: #ffffff;
+  align-items: center;
+  background-color: #00285f;
+
+}
+
+.home-card2 {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  background-color: #EDEDED;
+ 
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+  border-radius: 20px;
+  border-color: red;
+  color:  #585858;
+
+}
+
+.home-card h6 {
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.home-card-main h1 {
+  left: 78px;
+  top: 340px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.home-card-main h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.home-card-main p {
+  padding: 10px;
+  left: 10px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #ffffff;
+}
+
+.home-card2 p {
+  width: 199px;
+height: 21px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+ margin-left: 50px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: #585858;
+
+
+}
+.home-content-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border-color: greenyellow;
+
+  border-style: solid;
+}
+
+.home-image-container {
+  padding: 50px 15px;
+}
+
+.home-image-container svg {
+  width: 100%;
+  height: auto;
+}
+
+.home-card-main svg {
+  width: 100%;
+  height: auto;
+}
+/*   ------------------------------------- media ----------------*/
+@media (min-width: 576px) {
+  .home-container {
+    padding: 15px;
+    font-size: 40px;
+  }
+
+ 
+
+  .home-content-container h6, h1{
+   
+    color: white;
+    text-align: center;
+  }
+
+  .home-image-container svg {
+    width: 400px;
+    text-align: center;
+    background-color: #00285F;
+
+  }
+}
+
+@media (min-width: 768px) {
+  .home-image-container {
+    padding: 100px 20px;
+  }
+
+  .home-content-container {
+    padding: 20px 20px 100px 20px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .home-container {
+    font-size: 55px;
+    padding: 40px;
+  }
+
+  .home-image-container {
+    padding: 125px 20px;
+  }
+
+  .home-content-container {
+    padding: 20px 20px 150px 20px;
+  }
+
+  
+  .home-content-container h6{
+    width: 700px;
+    margin-bottom: 47px;
+  }
+
+
+  .home-content-container p {
+    width: 700px;
+    margin-bottom: 47px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .home-card {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: calc(((85vh - 480px) / 2) - 20px) 0;
+  }
+
+  .home-content-container {
+    height: 480px;
+    width: 900px;
+    padding: 20px;
+    align-items: flex-start;
+    text-align: center;
+    align-content: space-between;
+      flex-flow: wrap;
+
+  }
+
+  .home-image-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;  
+  }
+
+  .home-image-container h1 {
+   background-color: #00285F;
+
+  }
+
+  .home-image-container svg {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .home-image-container svg {
+    width: 580px;
+  }
+}
